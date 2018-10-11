@@ -1,0 +1,58 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "issue_generic",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "issue_generic",
+    "values" : [
+      {
+        "value" : "I hate this",
+        "expressions" : [
+          "I hate this"
+        ]
+      },
+      {
+        "value" : "the info should be",
+        "expressions" : [
+          "the info should be"
+        ]
+      },
+      {
+        "value" : "the information could be",
+        "expressions" : [
+          "the information could be misleading"
+        ]
+      },
+      {
+        "value" : "the system",
+        "expressions" : [
+          "the system"
+        ]
+      },
+      {
+        "value" : "this sucks",
+        "expressions" : [
+          "this sucks"
+        ]
+      },
+      {
+        "value" : "😠",
+        "expressions" : [
+          "😠"
+        ]
+      },
+      {
+        "value" : "😡",
+        "expressions" : [
+          "😡"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

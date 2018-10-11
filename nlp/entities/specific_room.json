@@ -1,0 +1,105 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "specific_room",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "specific_room",
+    "values" : [
+      {
+        "value" : "Best possible room",
+        "expressions" : [
+          "Best possible room"
+        ]
+      },
+      {
+        "value" : "a place to study now"
+      },
+      {
+        "value" : "a specific room"
+      },
+      {
+        "value" : "book a room around 8pm",
+        "expressions" : [
+          "book a room around 8pm"
+        ]
+      },
+      {
+        "value" : "book a room tomorrow",
+        "expressions" : [
+          "book a room tomorrow"
+        ]
+      },
+      {
+        "value" : "find a room after 8pm",
+        "expressions" : [
+          "find a room after 8pm?"
+        ]
+      },
+      {
+        "value" : "find a room around 7pm",
+        "expressions" : [
+          "Can I find a room around 7pm?",
+          "Can I find a room around 8pm?"
+        ]
+      },
+      {
+        "value" : "find a room around 8:30 in the morning",
+        "expressions" : [
+          "find a room around 8:30 in the morning?"
+        ]
+      },
+      {
+        "value" : "find a room around 8am",
+        "expressions" : [
+          "find a room around 6am?",
+          "find a room around 8am?"
+        ]
+      },
+      {
+        "value" : "find a room at 8pm",
+        "expressions" : [
+          "find a room at 8pm?"
+        ]
+      },
+      {
+        "value" : "find a room tomorrow",
+        "expressions" : [
+          "book a room tomorrow"
+        ]
+      },
+      {
+        "value" : "prefer a room",
+        "expressions" : [
+          "prefer a room"
+        ]
+      },
+      {
+        "value" : "room preference",
+        "expressions" : [
+          "room preference"
+        ]
+      },
+      {
+        "value" : "rooms available at 6pm",
+        "expressions" : [
+          "rooms available at 6pm"
+        ]
+      },
+      {
+        "value" : "specific room"
+      },
+      {
+        "value" : "specify my room preference",
+        "expressions" : [
+          "room preference"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

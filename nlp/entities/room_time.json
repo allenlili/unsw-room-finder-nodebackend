@@ -1,0 +1,88 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "room_time",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "room_time",
+    "values" : [
+      {
+        "value" : "after 8pm",
+        "expressions" : [
+          "after 8pm"
+        ]
+      },
+      {
+        "value" : "around 6am",
+        "expressions" : [
+          "around 6am?"
+        ]
+      },
+      {
+        "value" : "around 7pm",
+        "expressions" : [
+          "around 7pm?"
+        ]
+      },
+      {
+        "value" : "around 8:30 in the afternoon",
+        "expressions" : [
+          "around 8:30 in the afternoon"
+        ]
+      },
+      {
+        "value" : "around 8:30 in the morning",
+        "expressions" : [
+          "around 8:30 in the morning"
+        ]
+      },
+      {
+        "value" : "around 8am",
+        "expressions" : [
+          "around 8am?"
+        ]
+      },
+      {
+        "value" : "around 8pm",
+        "expressions" : [
+          "around 8pm"
+        ]
+      },
+      {
+        "value" : "at 6pm",
+        "expressions" : [
+          "at 6pm"
+        ]
+      },
+      {
+        "value" : "at 8pm",
+        "expressions" : [
+          "at 8pm"
+        ]
+      },
+      {
+        "value" : "next hour",
+        "expressions" : [
+          "next hour"
+        ]
+      },
+      {
+        "value" : "now",
+        "expressions" : [
+          "now"
+        ]
+      },
+      {
+        "value" : "tomorrow",
+        "expressions" : [
+          "tomorrow"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

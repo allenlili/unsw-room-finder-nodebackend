@@ -1,0 +1,52 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "init",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "init",
+    "values" : [
+      {
+        "value" : "Get Started",
+        "expressions" : [
+          "Get Started"
+        ]
+      },
+      {
+        "value" : "init",
+        "expressions" : [
+          "init"
+        ]
+      },
+      {
+        "value" : "reset",
+        "expressions" : [
+          "reset"
+        ]
+      },
+      {
+        "value" : "restart",
+        "expressions" : [
+          "restart"
+        ]
+      },
+      {
+        "value" : "start again",
+        "expressions" : [
+          "start again"
+        ]
+      },
+      {
+        "value" : "start over",
+        "expressions" : [
+          "start over"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

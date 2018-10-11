@@ -1,0 +1,28 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "greeting_words",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "greeting_words",
+    "values" : [
+      {
+        "value" : "hello",
+        "expressions" : [
+          "hello"
+        ]
+      },
+      {
+        "value" : "hi",
+        "expressions" : [
+          "hi"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

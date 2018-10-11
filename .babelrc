@@ -1,0 +1,17 @@
+{
+  "presets": [["env", {
+    "targets": {
+      "node": "current"
+    }
+  }], "stage-1"],
+  "plugins": [
+    "syntax-flow",
+    "transform-function-bind",
+    "transform-class-properties",
+    ["babel-plugin-root-import", {
+      "rootPathPrefix": "~",
+      "rootPathSuffix": "src"
+    }],
+    "transform-flow-strip-types"
+  ]
+}

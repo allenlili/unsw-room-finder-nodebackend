@@ -1,0 +1,55 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "issue_room",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "issue_room",
+    "values" : [
+      {
+        "value" : "Issue with room",
+        "expressions" : [
+          "Issue with room"
+        ]
+      },
+      {
+        "value" : "my room is",
+        "expressions" : [
+          "my room"
+        ]
+      },
+      {
+        "value" : "the room info may be",
+        "expressions" : [
+          "the room info may be"
+        ]
+      },
+      {
+        "value" : "the room is"
+      },
+      {
+        "value" : "this room ain't free",
+        "expressions" : [
+          "this room ain't free"
+        ]
+      },
+      {
+        "value" : "this room is",
+        "expressions" : [
+          "this room"
+        ]
+      },
+      {
+        "value" : "where's my room",
+        "expressions" : [
+          "where's my room"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

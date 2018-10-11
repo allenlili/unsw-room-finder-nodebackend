@@ -1,0 +1,1445 @@
+{
+  "data" : [
+    {
+      "text" : " where them rooms at",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"where them rooms at\"",
+          "start" : 0,
+          "end" : 19
+        }
+      ]
+    },
+    {
+      "text" : "?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"?\"",
+          "start" : 0,
+          "end" : 1
+        }
+      ]
+    },
+    {
+      "text" : "???",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"???\"",
+          "start" : 0,
+          "end" : 3
+        }
+      ]
+    },
+    {
+      "text" : "AHHHHHH",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"AHHHHHH\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "Ahhh?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"Ahhh?\"",
+          "start" : 0,
+          "end" : 5
+        }
+      ]
+    },
+    {
+      "text" : "Any room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"Any room\"",
+          "start" : 0,
+          "end" : 8
+        }
+      ]
+    },
+    {
+      "text" : "Best possible room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"Best possible room\"",
+          "start" : 0,
+          "end" : 18
+        }
+      ]
+    },
+    {
+      "text" : "Can I book a room around 8pm",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"book a room around 8pm\"",
+          "start" : 6,
+          "end" : 28,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"around 8pm\"",
+              "start" : 12,
+              "end" : 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room after 8pm?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room after 8pm?\"",
+          "start" : 6,
+          "end" : 28,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"after 8pm\"",
+              "start" : 12,
+              "end" : 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 6am?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room around 8am?\"",
+          "start" : 6,
+          "end" : 29,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"around 6am?\"",
+              "start" : 12,
+              "end" : 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 7pm?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room around 7pm?\"",
+          "start" : 0,
+          "end" : 29,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"around 7pm?\"",
+              "start" : 18,
+              "end" : 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 8:30 in the afternoon?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room around 8:30 in the morning?\"",
+          "start" : 6,
+          "end" : 18
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"around 8:30 in the afternoon\"",
+          "start" : 18,
+          "end" : 46
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 8:30 in the morning?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room around 8:30 in the morning?\"",
+          "start" : 6,
+          "end" : 45,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"around 8:30 in the morning\"",
+              "start" : 12,
+              "end" : 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 8am?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room around 8am?\"",
+          "start" : 6,
+          "end" : 29,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"around 8am?\"",
+              "start" : 12,
+              "end" : 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room around 8pm?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find a room\"",
+          "start" : 6,
+          "end" : 17
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"around 8pm\"",
+          "start" : 18,
+          "end" : 28
+        }
+      ]
+    },
+    {
+      "text" : "Can I find a room at 8pm?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room at 8pm?\"",
+          "start" : 6,
+          "end" : 25,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"at 8pm\"",
+              "start" : 12,
+              "end" : 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Can you help book a room?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"help book a room\"",
+          "start" : 0,
+          "end" : 24
+        }
+      ]
+    },
+    {
+      "text" : "Could you book a room for me?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"book a room for me?\"",
+          "start" : 10,
+          "end" : 29
+        }
+      ]
+    },
+    {
+      "text" : "Feeling Lucky",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        }
+      ]
+    },
+    {
+      "text" : "Feeling lucky",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        }
+      ]
+    },
+    {
+      "text" : "Find room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"Find room\"",
+          "start" : 0,
+          "end" : 9
+        }
+      ]
+    },
+    {
+      "text" : "Get Started",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"Get Started\"",
+          "start" : 0,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "Help",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"Help\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "Help!",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        }
+      ]
+    },
+    {
+      "text" : "Help!!",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"Help!!\"",
+          "start" : 0,
+          "end" : 6
+        }
+      ]
+    },
+    {
+      "text" : "I am looking for a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"looking for a room\"",
+          "start" : 5,
+          "end" : 23
+        }
+      ]
+    },
+    {
+      "text" : "I hate this",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"I hate this\"",
+          "start" : 0,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "I have an issue with the room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"an issue with the room\"",
+          "start" : 7,
+          "end" : 29
+        }
+      ]
+    },
+    {
+      "text" : "I prefer a room after 8pm",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"prefer a room\"",
+          "start" : 2,
+          "end" : 15
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"after 8pm\"",
+          "start" : 16,
+          "end" : 25
+        }
+      ]
+    },
+    {
+      "text" : "I want a room next hour",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"next hour\"",
+          "start" : 14,
+          "end" : 23
+        }
+      ]
+    },
+    {
+      "text" : "I want a room now",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"now\"",
+          "start" : 14,
+          "end" : 17
+        }
+      ]
+    },
+    {
+      "text" : "I want a specific room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"a specific room\""
+        }
+      ]
+    },
+    {
+      "text" : "I want help",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"help\"",
+          "start" : 7,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "I want to find a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find a room\"",
+          "start" : 0,
+          "end" : 21
+        }
+      ]
+    },
+    {
+      "text" : "I would like to book a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"book a room\"",
+          "start" : 16,
+          "end" : 27
+        }
+      ]
+    },
+    {
+      "text" : "I would like to book a room ",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"book a room\"",
+          "start" : 16,
+          "end" : 27
+        }
+      ]
+    },
+    {
+      "text" : "I would like to book a room tomorrow",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"book a room tomorrow\"",
+          "start" : 16,
+          "end" : 36,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"tomorrow\"",
+              "start" : 12,
+              "end" : 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "I would like to find a room tomorrow",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"find a room tomorrow\"",
+          "start" : 20,
+          "end" : 36,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"tomorrow\"",
+              "start" : 8,
+              "end" : 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "I would like to get a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"get a room\"",
+          "start" : 0,
+          "end" : 26
+        }
+      ]
+    },
+    {
+      "text" : "I would like to specify my room preference",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"specify my room preference\"",
+          "start" : 27,
+          "end" : 42
+        }
+      ]
+    },
+    {
+      "text" : "I'd like to book a room tomorrow",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"book a room tomorrow\"",
+          "start" : 12,
+          "end" : 32,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"tomorrow\"",
+              "start" : 12,
+              "end" : 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "Issue with room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"Issue with room\"",
+          "start" : 0,
+          "end" : 15
+        }
+      ]
+    },
+    {
+      "text" : "Random Room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        }
+      ]
+    },
+    {
+      "text" : "Random room please",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"Random room\"",
+          "start" : 0,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "Restart",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"Restart\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "a place to study",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"a place to study\"",
+          "start" : 0,
+          "end" : 16
+        }
+      ]
+    },
+    {
+      "text" : "a place to study now ",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"now\"",
+          "start" : 17,
+          "end" : 20
+        }
+      ]
+    },
+    {
+      "text" : "a specific room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"a specific room\""
+        }
+      ]
+    },
+    {
+      "text" : "any rooms",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"any rooms\"",
+          "start" : 0,
+          "end" : 9
+        }
+      ]
+    },
+    {
+      "text" : "can I have a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"can I have a room\"",
+          "start" : 0,
+          "end" : 17
+        }
+      ]
+    },
+    {
+      "text" : "find a room tomorrow",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find a room\"",
+          "start" : 0,
+          "end" : 11
+        },
+        {
+          "entity" : "room_time",
+          "value" : "\"tomorrow\"",
+          "start" : 12,
+          "end" : 20
+        }
+      ]
+    },
+    {
+      "text" : "find me a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find me a room\"",
+          "start" : 0,
+          "end" : 14
+        }
+      ]
+    },
+    {
+      "text" : "find me something",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find me something\"",
+          "start" : 0,
+          "end" : 17
+        }
+      ]
+    },
+    {
+      "text" : "hello",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"greeting\""
+        },
+        {
+          "entity" : "greeting_words",
+          "value" : "\"hello\"",
+          "start" : 0,
+          "end" : 5
+        }
+      ]
+    },
+    {
+      "text" : "help",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"help\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "help help help",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"help help help\"",
+          "start" : 0,
+          "end" : 14
+        }
+      ]
+    },
+    {
+      "text" : "help me",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"help me\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "hi",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"greeting\""
+        },
+        {
+          "entity" : "greeting_words",
+          "value" : "\"hi\"",
+          "start" : 0,
+          "end" : 2
+        }
+      ]
+    },
+    {
+      "text" : "id like to find a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"id like to find a room\"",
+          "start" : 0,
+          "end" : 22
+        }
+      ]
+    },
+    {
+      "text" : "init",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"init\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "let me find a room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"find a room\"",
+          "start" : 0,
+          "end" : 18
+        }
+      ]
+    },
+    {
+      "text" : "my room is full",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"my room\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "place to study",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"place to study\"",
+          "start" : 0,
+          "end" : 14
+        }
+      ]
+    },
+    {
+      "text" : "reset",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"reset\"",
+          "start" : 0,
+          "end" : 5
+        }
+      ]
+    },
+    {
+      "text" : "restart",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"restart\"",
+          "start" : 0,
+          "end" : 7
+        }
+      ]
+    },
+    {
+      "text" : "retry",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        }
+      ]
+    },
+    {
+      "text" : "room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"room?\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "room please",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"room please\"",
+          "start" : 0,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "room?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"room?\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "rooms yo",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"rooms yo\"",
+          "start" : 0,
+          "end" : 8
+        }
+      ]
+    },
+    {
+      "text" : "rooms?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"rooms?\"",
+          "start" : 0,
+          "end" : 6
+        }
+      ]
+    },
+    {
+      "text" : "show me rooms available at 6pm",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"rooms available at 6pm\"",
+          "start" : 8,
+          "end" : 30,
+          "subentities" : [
+            {
+              "entity" : "room_time",
+              "value" : "\"at 6pm\"",
+              "start" : 16,
+              "end" : 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text" : "spare room?",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"spare room\"",
+          "start" : 0,
+          "end" : 10
+        }
+      ]
+    },
+    {
+      "text" : "specific room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"specific room\""
+        }
+      ]
+    },
+    {
+      "text" : "specify room preference",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/specific\""
+        },
+        {
+          "entity" : "specific_room",
+          "value" : "\"room preference\"",
+          "start" : 8,
+          "end" : 23
+        }
+      ]
+    },
+    {
+      "text" : "start again",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"start again\"",
+          "start" : 0,
+          "end" : 11
+        }
+      ]
+    },
+    {
+      "text" : "start over",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"init\""
+        },
+        {
+          "entity" : "init",
+          "value" : "\"start over\"",
+          "start" : 0,
+          "end" : 10
+        }
+      ]
+    },
+    {
+      "text" : "the info should be wrong",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"the info should be\"",
+          "start" : 0,
+          "end" : 18
+        }
+      ]
+    },
+    {
+      "text" : "the information could be misleading",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"the information could be misleading\"",
+          "start" : 0,
+          "end" : 35
+        }
+      ]
+    },
+    {
+      "text" : "the room info may be not correct",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"the room info may be\"",
+          "start" : 0,
+          "end" : 20
+        }
+      ]
+    },
+    {
+      "text" : "there's an issue with the system",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"the system\"",
+          "start" : 22,
+          "end" : 32
+        }
+      ]
+    },
+    {
+      "text" : "this room ain't free",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"this room ain't free\"",
+          "start" : 0,
+          "end" : 20
+        }
+      ]
+    },
+    {
+      "text" : "this room is broken",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"this room\"",
+          "start" : 0,
+          "end" : 9
+        }
+      ]
+    },
+    {
+      "text" : "this sucks",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"this sucks\"",
+          "start" : 0,
+          "end" : 10
+        }
+      ]
+    },
+    {
+      "text" : "what",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"what\"",
+          "start" : 0,
+          "end" : 4
+        }
+      ]
+    },
+    {
+      "text" : "what can i do",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"what can i do\"",
+          "start" : 0,
+          "end" : 13
+        }
+      ]
+    },
+    {
+      "text" : "what is this",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"help\""
+        },
+        {
+          "entity" : "help",
+          "value" : "\"what is this\"",
+          "start" : 0,
+          "end" : 12
+        }
+      ]
+    },
+    {
+      "text" : "where's my room",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/room\""
+        },
+        {
+          "entity" : "issue_room",
+          "value" : "\"where's my room\"",
+          "start" : 0,
+          "end" : 15
+        }
+      ]
+    },
+    {
+      "text" : "yo where them rooms at",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"booking/random\""
+        },
+        {
+          "entity" : "random_room",
+          "value" : "\"yo where them rooms at\"",
+          "start" : 0,
+          "end" : 22
+        }
+      ]
+    },
+    {
+      "text" : "😠",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"😠\"",
+          "start" : 0,
+          "end" : 2
+        }
+      ]
+    },
+    {
+      "text" : "😡",
+      "entities" : [
+        {
+          "entity" : "intent",
+          "value" : "\"issue/generic\""
+        },
+        {
+          "entity" : "issue_generic",
+          "value" : "\"😡\"",
+          "start" : 0,
+          "end" : 2
+        }
+      ]
+    }
+  ]
+}

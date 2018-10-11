@@ -1,0 +1,9 @@
+{
+  "version" : 20160513,
+  "zip-command" : "zip CampusRoomBookingBot.zip CampusRoomBookingBot/app.json CampusRoomBookingBot/entities/*.json CampusRoomBookingBot/actions.json CampusRoomBookingBot/stories.json CampusRoomBookingBot/expressions.json",
+  "data" : {
+    "name" : "CampusRoomBookingBot",
+    "description" : "book a room in campus",
+    "lang" : "en"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "data" : {
+    "lookups" : [
+      "trait"
+    ],
+    "name" : "intent",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "intent",
+    "values" : [
+      {
+        "value" : "booking/random",
+        "expressions" : [
+          "booking/random"
+        ]
+      },
+      {
+        "value" : "booking/specific"
+      },
+      {
+        "value" : "greeting"
+      },
+      {
+        "value" : "help",
+        "expressions" : [
+          "help"
+        ]
+      },
+      {
+        "value" : "init",
+        "expressions" : [
+          "init"
+        ]
+      },
+      {
+        "value" : "issue/generic",
+        "expressions" : [
+          "issue/generic"
+        ]
+      },
+      {
+        "value" : "issue/room",
+        "expressions" : [
+          "issue/room"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

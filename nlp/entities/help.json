@@ -1,0 +1,82 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "help",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "help",
+    "values" : [
+      {
+        "value" : "?",
+        "expressions" : [
+          "?"
+        ]
+      },
+      {
+        "value" : "???",
+        "expressions" : [
+          "???"
+        ]
+      },
+      {
+        "value" : "AHHHHHH",
+        "expressions" : [
+          "AHHHHHH"
+        ]
+      },
+      {
+        "value" : "Ahhh?",
+        "expressions" : [
+          "Ahhh?"
+        ]
+      },
+      {
+        "value" : "Help!!",
+        "expressions" : [
+          "Help!!"
+        ]
+      },
+      {
+        "value" : "help",
+        "expressions" : [
+          "help"
+        ]
+      },
+      {
+        "value" : "help help help",
+        "expressions" : [
+          "help help help"
+        ]
+      },
+      {
+        "value" : "help me",
+        "expressions" : [
+          "help me"
+        ]
+      },
+      {
+        "value" : "what",
+        "expressions" : [
+          "what"
+        ]
+      },
+      {
+        "value" : "what can i do",
+        "expressions" : [
+          "what can i do"
+        ]
+      },
+      {
+        "value" : "what is this",
+        "expressions" : [
+          "what is this"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

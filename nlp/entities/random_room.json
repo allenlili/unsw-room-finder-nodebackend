@@ -1,0 +1,156 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "random_room",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "random_room",
+    "values" : [
+      {
+        "value" : "Any room",
+        "expressions" : [
+          "Any room"
+        ]
+      },
+      {
+        "value" : "Find room",
+        "expressions" : [
+          "Find room"
+        ]
+      },
+      {
+        "value" : "Random room",
+        "expressions" : [
+          "Random room"
+        ]
+      },
+      {
+        "value" : "a place to study",
+        "expressions" : [
+          "a place to study"
+        ]
+      },
+      {
+        "value" : "any rooms",
+        "expressions" : [
+          "any rooms"
+        ]
+      },
+      {
+        "value" : "book a room",
+        "expressions" : [
+          "book a room"
+        ]
+      },
+      {
+        "value" : "book a room for me?",
+        "expressions" : [
+          "book a room for me?"
+        ]
+      },
+      {
+        "value" : "can I have a room",
+        "expressions" : [
+          "can I have a room"
+        ]
+      },
+      {
+        "value" : "find a room",
+        "expressions" : [
+          "I want to find a room",
+          "find a room",
+          "let me find a room"
+        ]
+      },
+      {
+        "value" : "find me a room",
+        "expressions" : [
+          "find me a room"
+        ]
+      },
+      {
+        "value" : "find me something",
+        "expressions" : [
+          "find me something"
+        ]
+      },
+      {
+        "value" : "get a room",
+        "expressions" : [
+          "I would like to get a room"
+        ]
+      },
+      {
+        "value" : "help book a room",
+        "expressions" : [
+          "Can you help book a room"
+        ]
+      },
+      {
+        "value" : "id like to find a room",
+        "expressions" : [
+          "id like to find a room"
+        ]
+      },
+      {
+        "value" : "looking for a room",
+        "expressions" : [
+          "looking for a room"
+        ]
+      },
+      {
+        "value" : "place to study",
+        "expressions" : [
+          "place to study"
+        ]
+      },
+      {
+        "value" : "room",
+        "expressions" : [
+          "room"
+        ]
+      },
+      {
+        "value" : "room please",
+        "expressions" : [
+          "room please"
+        ]
+      },
+      {
+        "value" : "rooms",
+        "expressions" : [
+          "rooms?"
+        ]
+      },
+      {
+        "value" : "rooms yo",
+        "expressions" : [
+          "rooms yo"
+        ]
+      },
+      {
+        "value" : "spare room",
+        "expressions" : [
+          "spare room"
+        ]
+      },
+      {
+        "value" : "where them rooms at",
+        "expressions" : [
+          "where them rooms at"
+        ]
+      },
+      {
+        "value" : "yo where them rooms at",
+        "expressions" : [
+          "yo where them rooms at"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}
