@@ -135,3 +135,13 @@ This runs the build, it'll wait for changes before running
 # to stop
 docker kill comp9323_make__devserver
 ```
+
+## Authors
+
+* **Allen Li**
+* **Angus**
+* **Zaki**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
